@@ -1,0 +1,16 @@
+{
+  "name": "intelligent-inventory-ecommerce-system",
+  "version": "1.0.0",
+  "description": "Intelligent Multi-Vendor Inventory and E-Commerce Management System (MERN)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test:scenario": "npm --prefix server run test:scenario",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": ["mern", "inventory", "ecommerce", "multi-vendor", "intelligent-inventory"],
+  "author": "Antigravity Pair Programmer",
+  "license": "MIT"
+}
